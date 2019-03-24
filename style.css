@@ -1,0 +1,81 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 3em;
+  background-Color: lightblue;
+}
+
+h1 {
+  font-style: normal;
+  color: #393c8c;
+}
+
+
+#map {
+  height: 100vh;
+  float: left;
+  width: 85%;
+}
+
+layer {
+  fill:#f44283;
+  
+}
+/* .overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  padding: 5px;
+  background: white;
+  z-index: 10000;} */
+  .sidebar {
+  background: #eee;
+  float: right;
+  font-family: sans-serif;
+  height: 96vh;
+  overflow-x: auto;
+  overflow-y: auto;
+  width: 15%;
+}
+
+.sidebar-content {
+  padding: 15px;
+}
+.color_code1{
+  height:15px;
+  width:40px;
+  background:#a01f13;
+  display:inline-block;
+}
+
+.color_code2{
+  height:15px;
+  width:40px;
+  background:#ca5418;
+  display:inline-block;
+}
+
+
+
+.color_code3{
+  height:15px;
+  width:40px;
+  background:#F39C12;
+  display:inline-block;
+}
+
+.color_code4{
+  height:15px;
+  width:40px;
+  background:#F7DC6F;
+  display:inline-block;
+}
+
+.color_code5{
+  height:15px;
+  width:40px;
+  background:#FCF3CF;
+  display:inline-block;
+}
